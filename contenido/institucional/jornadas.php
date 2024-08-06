@@ -21,6 +21,44 @@ include("../../template/top.php");
     	list-style-type: disc;
     	margin-left: 40px;    	
     }
+    .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 </style>
 <div class="container margen">
 <div class="row">
@@ -102,8 +140,23 @@ include("../../template/top.php");
         
     </div>
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"><!--Jornadas anteriores-->
-    	<img src="../../img/Diagrama-Historia-1-980x554.png" class="text-center">
+        <h4 class="text-center">Seleccione un año para ver más información</h4>
+    	<img src="../../img/linea-tiempo.png" class="text-center" usemap="#mapa">
+        <map id="mapa">
+            <area shape="circle" coords="387, 230, 30" href="jornadas/2005-programa.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2005 IV Jornadas - Programa">
+            <area shape="circle" coords="576, 230, 30" href="jornadas/2007-programa.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2007 VI Jornadas - Programa">
+            <area shape="circle" coords="666, 230, 30" href="jornadas/2008-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2008 VII Jornadas - Libro de resumenes"> 
+            <area shape="circle" coords="848, 230, 30" href="jornadas/2010-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2010 IX Jornadas - Libro de resumenes">
+            <area shape="circle" coords="165, 513, 30" href="jornadas/2011-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2011 X Jornadas - Libro de resumenes">
+            <area shape="circle" coords="257, 513, 30" href="jornadas/2012-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2012 XI Jornadas - Libro de resumenes">
+            <area shape="circle" coords="347, 513, 30" href="jornadas/2013-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2013 XII Jornadas - Libro de resumenes">
+            <area shape="circle" coords="437, 513 30" href="jornadas/2014-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2014 XIII Jornadas - Libro de resumenes">
+            <area shape="circle" coords="623, 513, 30" href="jornadas/2018-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2018 XV Jornadas - Libro de resumenes">
+            <area shape="circle" coords="716, 513, 30" href="jornadas/2021-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2021 XVI Jornadas - Libro de resumenes">
+            <area shape="circle" coords="806, 513, 30" href="jornadas/2023-resumenes.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="2023 XVII Jornadas - Libro de resumenes">
+        </map>
     </div>
+   
   </div>
 </div>
 </div>

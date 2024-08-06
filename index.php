@@ -38,9 +38,6 @@ require("template/top.php");
     }
 </style>
 </head>
-<div class="alert alert-info" role="alert">
-    <strong>¡ATENCIÓN!</strong> Por problemas técnicos con el sistema de turnos por WhatsApp solicitamos que para turnos para Gastroenterología se acerquen al Instituto o se comuniquen al 5287-3829 (de 8 a 15hs). Por favor sepan disculpar los inconvenientes.
-</div>
 <!-- Header-->
     <header class="py-5 bg-image-full" style="background-image: url('img/instituto-lanari.jpg')">
             <div class="text-center my-5">
@@ -51,8 +48,7 @@ require("template/top.php");
 
 <div class="row">
         <div class="col-6"><!-- Esta columna debe contener las Novedades -->
-           <div class="card">
-                <img src="whatsapp-error-s.png">
+           <div class="card">              
                 <div class="card-header"><h1 class="text-center">Novedades </h1></div>
                 <div class="card-body">
                 
@@ -151,7 +147,7 @@ require("template/top.php");
                  <div class="card-body">
                  <!-- lo que sigue es el calendario de turnos  -->
                      <p>
-                        <img src="img/turnos-062024.png" width="100%">
+                        <img src="img/turnos-082024.png" width="100%">
                      </p>   
                  </div>
             </div>  
