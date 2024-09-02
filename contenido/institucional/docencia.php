@@ -38,18 +38,30 @@ require("../../template/top.php");
 	<p></p>
 	<div class="alert alert-dark" role="alert" id="AUTORIDADES">
 	    <h3>AUTORIDADES</h3>
-	            <p><b>Director<br /></b>Dr. Roberto Freue<br /><b>Asesora<br /></b>Metodolog&iacute;a y Epidemiolog&iacute;a Cl&iacute;nica Dra. Marina Khoury<br /><b>Secretaria Administrativa<br /></b>Ivana Rossetto</p>
-	    		<p><b>COMIT&Eacute; DE DOCENCIA E INVESTIGACI&Oacute;N<br /></b><a href="mailto:comitededocenciaeinvestigacion@lanari.fmed.uba.ar">comitededocenciaeinvestigacion@lanari.uba.ar</a><br /><a href="mailto:comitededocenciaeinvestigacion@gmail.com">comitededocenciaeinvestigacion@gmail.com</a></p>
-	    		<p>Presidente<br />Dr. Alejandro Arregger</p>
-	    		<p>Vice-Presidente<br />Dra.&nbsp; Elisabet Oddo</p>
-	    		<p>Secretario de Actas<br />Dra. Nora Goette</p>
-	    		<p>Miembros:</p>
-	    		<p>Dra.&nbsp;Pablo Landi</p>
-	    		<p>Dr.&nbsp;Antonio Maya</p>
-	    		<p>Dra. Alejandra Palma</p>
-	    		<p>Dra. Ver&oacute;nica Verri</p>
-	    		<p>Dra. Valeria Saluto</p>
-	    		<p>Lic. Lorena Kwast</p>
+	           <p><strong>Director área de Docencia e Investigación</strong></p>
+	           <p>Dr. Roberto Freue</p>
+	           <p><strong>Presidente</strong></p>
+	           <p>Dr. Alejandro Arregger</p>
+	           <p><strong>Vicepresidente</strong></p>
+	           <p>Dra. Elisabet oddo</p>
+
+	           <p><strong>Secretaria de Actas</strong></p>
+	           <p>Dra. Alejandra Palma</p>
+
+	           <p><strong>Vocales</strong></p>
+	           <p>Dra. Valeria Salutto</p>
+	           <p>Dra. Chantal Reigada</p>
+	           <p>Dr. Pablo J. Landi</p>
+	           <p>Dr. Victoria S M</p>
+	           <p>Dra. Verónica Verri</p>
+	           <p>Lic. Jackeline Gómez</p>
+
+	           <p><strong>Asesora</strong>
+	           <p>Dr. Marina Khoury</p>
+	           <p>Metodología y Epidemiología Cínica</p>
+
+	           <p><strong>Secretaria Administrativa</strong></p>
+	           <p>Ivana Rossetto</p>
 	</div>
 	<!-- Comienzo Acordeón -->
 	<div class="accordion" id="accordionBasic">	 
