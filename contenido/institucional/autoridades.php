@@ -59,8 +59,10 @@ require("../../template/top.php");
 	    <p><strong>Director de Gestión de Sistemas Hospitalarios y de Auditoría:</strong> Dr. Ricardo Franzozi</p>
 	</div>
 	  <div class="alert alert-dark" role="alert" id="Autoridades del CONICET">
-	      <h3>Autoridades del CONICET</h3>
-	      <p><strong>Director de la Unidad Ejecutora IDIM-CONICET:</strong> Dra. Mónica Costas</p>
+	      <h3>Autoridades del IDIM (UBA-CONICET)</h3>
+	      <p><strong>Directora del IDIM (UBA-CONICET):</strong> Dra. Mónica Costas</p>
+	      <p><strong>Vicedirectora del IDIM (UBA-CONICET):</strong> Dra. Paula Heller</p>
+	    
 	  </div>
 	  
 </div>
