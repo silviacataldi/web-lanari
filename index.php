@@ -147,7 +147,7 @@ require("template/top.php");
                  <div class="card-body">
                  <!-- lo que sigue es el calendario de turnos  -->
                      <p>
-                        <img src="img/turnos-082024.png" width="100%">
+                        <img src="img/turnos-noviembre.png" width="100%">
                      </p>   
                  </div>
             </div>  
