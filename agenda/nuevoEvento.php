@@ -50,7 +50,7 @@ $InsertNuevoEvento = "INSERT INTO eventoscalendar(
       '" .$fecha_fin. "',
       '" .$color_evento. "'
   )";
-$resultadoNuevoEvento = mysqli_query($con, $InsertNuevoEvento);
+$resultadoNuevoEvento = mysqli_query($conn, $InsertNuevoEvento);
 
 header("Location:index.php?e=1");
 

@@ -24,7 +24,7 @@ $UpdateProd = ("UPDATE eventoscalendar
         fecha_fin ='$fecha_fin',
         color_evento ='$color_evento'
     WHERE id='".$idEvento."' ");
-$result = mysqli_query($con, $UpdateProd);
+$result = mysqli_query($conn, $UpdateProd);
 
 header("Location:index.php?ea=1");
 ?>

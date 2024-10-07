@@ -16,7 +16,7 @@
 include('config.php');
 
   $SqlEventos   = ("SELECT * FROM eventoscalendar");
-  $resulEventos = mysqli_query($con, $SqlEventos);
+  $resulEventos = mysqli_query($conn, $SqlEventos);
 
 ?>
 <div class="mt-5"></div>
