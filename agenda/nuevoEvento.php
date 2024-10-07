@@ -16,19 +16,19 @@ $fecha_fin         = date('Y-m-d', ($fecha_fin1));
 //$color_evento      = $_REQUEST['color_evento'];
 //asigna color según el evento
 switch ($evento) {
-  case 'ausente':
+  case 'Ausente':
     $color_evento= "orange";
     break;
-  case 'vacaciones':
+  case 'Vacaciones':
     $color_evento= "lime";
       break;
-  case '1/2 jornada':
-      $color_evento= "amber";
+  case 'M.Jornada':
+      $color_evento= "gold";
         break;
-  case 'especial':
+  case 'Especial':
     $color_evento= "blue";
       break;
-  case 'medico':
+  case 'Medico':
     $color_evento= "indigo";
       break;
   default:

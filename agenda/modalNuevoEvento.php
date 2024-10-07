@@ -27,9 +27,9 @@
           <option disabled selected>Elija un motivo</option>
           <option value="Ausente" style="background-color: #FF5722; color: #fff;">Ausente</option>
           <option value="Vacaciones" style="background-color: #8BC34A; color: #fff;">Vacaciones</option>
-          <option value="1/2 jornada" style="background-color: #FFC107; color: #fff;">1/2 Jornada</option>
-          <option value="especial" style="background-color: #2196F3; color: #fff;">Especial</option>
-          <option value="medico" style="background-color: #9c27b0; color: #fff;">Médico</option>
+          <option value="M.Jornada" style="background-color: #FFC107; color: #fff;">1/2 Jornada</option>
+          <option value="Especial" style="background-color: #2196F3; color: #fff;">Especial</option>
+          <option value="Medico" style="background-color: #9c27b0; color: #fff;">Médico</option>
         </select>
      
 			</div>
@@ -37,14 +37,14 @@
     <div class="form-group">
       <label for="fecha_inicio" class="col-sm-12 control-label">Fecha Inicio</label>
       <div class="col-sm-10">
-      <input type="date" class="form-control" id="fecha_inicio" name="fecha_inicio" placeholder="Fecha Inicio"" min="2024-01-01" max="2040-12-31" />
+      <input type="date" class="form-control" id="fecha_inicio" name="fecha_inicio" placeholder="Fecha Inicio" min="2024-01-01" max="2040-12-31" />
         
       </div>
     </div>
     <div class="form-group">
       <label for="fecha_fin" class="col-sm-12 control-label">Fecha Final</label>
       <div class="col-sm-10">
-      <input type="date" class="form-control" id="fecha_fin" name="fecha_fin" placeholder="Fecha Final"" min="2024-01-01" max="2040-12-31" />
+      <input type="date" class="form-control" id="fecha_fin" name="fecha_fin" placeholder="Fecha Final" min="2024-01-01" max="2040-12-31" />
         
       </div>
     </div>

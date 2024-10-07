@@ -6,9 +6,9 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "agenda";
-$con = new mysqli($servername, $username, $password, $dbname);
-if ($con->connect_error) {
-    die("Error de conexión a la base de datos: " . $con->connect_error);
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Error de conexión a la base de datos: " . $conn->connect_error);
 }
 
 /* //base de datos DonWeb
