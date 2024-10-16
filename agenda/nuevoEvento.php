@@ -16,21 +16,23 @@ $fecha_fin         = date('Y-m-d', ($fecha_fin1));
 //$color_evento      = $_REQUEST['color_evento'];
 //asigna color según el evento
 switch ($evento) {
-  case 'ausente':
-    $color_evento= "orange";
+  case 'Ausente':
+    $color_evento= "red";
     break;
-  case 'vacaciones':
-    $color_evento= "lime";
+  case 'Vacaciones':
+    $color_evento= "limegreen";
       break;
-  case '1/2 jornada':
-      $color_evento= "amber";
+  case 'M.Jornada':
+      $color_evento= "lightcoral";
         break;
-  case 'especial':
-    $color_evento= "blue";
+  case 'Guardia':
+    $color_evento= "lightsteelblue";
       break;
-  case 'medico':
+  case 'Medico':
     $color_evento= "indigo";
       break;
+  case 'Home':
+    $color_evento= "mediumpurple";
   default:
     # code...
     break;
@@ -50,7 +52,7 @@ $InsertNuevoEvento = "INSERT INTO eventoscalendar(
       '" .$fecha_fin. "',
       '" .$color_evento. "'
   )";
-$resultadoNuevoEvento = mysqli_query($con, $InsertNuevoEvento);
+$resultadoNuevoEvento = mysqli_query($conn, $InsertNuevoEvento);
 
 header("Location:index.php?e=1");
 

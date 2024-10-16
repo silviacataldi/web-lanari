@@ -17,6 +17,6 @@ $UpdateProd = ("UPDATE eventoscalendar
         fecha_fin ='$fecha_fin'
 
     WHERE id='".$idEvento."' ");
-$result = mysqli_query($con, $UpdateProd);
+$result = mysqli_query($conn, $UpdateProd);
 
 ?>

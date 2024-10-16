@@ -1,4 +1,3 @@
-
 <?php
 if(isset($_REQUEST['e'])){ ?>
 <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
