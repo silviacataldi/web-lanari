@@ -130,7 +130,7 @@ include("../../template/top.php");
                 <p>Martín Durlach</p>
                 <p>Nicolás Iezzi</p>
                 <p>Mariana Miranda</p>
-                <p>Lucía Rosenberg </p>
+                <p>M. Lucía Rosenberg </p>
                 
             </div>
         <div class="row">

@@ -51,7 +51,15 @@ require("template/top.php");
            <div class="card">              
                 <div class="card-header"><h1 class="text-center">Novedades </h1></div>
                 <div class="card-body">
-                
+  <!-- Imagen de consultorio de Endocrino experimental -->                  
+                    <div class="alert alert-info" role="alert">
+                      <img src="img/endocrinologiaexp.jpg" alt="Consultorio Poliquistosis Renal" class="img-fluid">
+                    </div>
+  <!--imagen de Consultorio poliquistosis Renal -->
+                    <div class="alert alert-info" role="alert">
+                      <img src="img/hiper-arterial.png" alt="Consultorio Poliquistosis Renal" class="img-fluid">
+                    </div>
+  <!-- Noticia del ecógrafo con foto de directores -->
                     <div class="title"><h3 class="text-muted">Entrega de Ecógrafo al Instituto Lanari </h3></div>
                     <img src="img/ecografo.jpeg" class="float-left w-25 p-3">
                     <p>El <strong>Instituto Lanari</strong> de la Universidad de Buenos Aires cuenta ahora con un nuevo ecógrafo, cortesía del compromiso social de <strong>Banco Galicia</strong>. Con esta inversión contribuímos a mejorar el día a día de más personas.</p>
@@ -66,9 +74,7 @@ require("template/top.php");
                   
                 </div>
            </div> 
-           <div class="alert alert-info" role="alert">
-               <img src="img/hiper-arterial.png" alt="Consultorio Poliquistosis Renal" class="img-fluid">
-           </div>
+           
   
              
         </div>
