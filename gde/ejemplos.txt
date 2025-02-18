@@ -1,0 +1,20 @@
+--- AGREGAR PREGUNTA ----
+(CAMBNIAR TÍTULO Y LOREM)
+	<li class="cd-faq__item">
+			<a class="cd-faq__trigger" href="#0"><span>TITULO</span></a>
+			<div class="cd-faq__content">
+      <div class="text-component">
+        <p>Lorem ipsum </p>
+      </div>
+			</div> <!-- cd-faq__content -->
+	</li>
+
+---- AGREGAR SECCIÓN ----
+
+<div class="cd-faq__items">
+		<ul id="basics" class="cd-faq__group">
+			
+			ACÁ VAN LAS PREGUNTAS
+
+	
+		</ul> <!-- cd-faq__group -->
